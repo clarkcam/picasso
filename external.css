@@ -155,3 +155,8 @@ section{
     color: rgb(73,79,86);
     font-size: 6vw;
 }
+form {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    margin: 1vw 9vw;
+}
