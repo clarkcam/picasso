@@ -1,5 +1,5 @@
 section{
-    margin:6vw 8vw;
+    margin: 6vw 8%;
 }
 .canvas{
     display:flex;
@@ -29,7 +29,7 @@ section{
 #bigYellow {
     position:absolute;
     top: 9vw;
-    left: 22vw;
+    left: 22%;
 }
 
 #bigRed {
@@ -83,8 +83,9 @@ section{
     border-right: 13vw solid transparent;
     border-bottom: 17.75vw solid rgb(201,226,101);
     position:absolute;
-    top: 24.75vw;
+    top: 24.55vw;
     left: 60vw;
+    z-index: 4;
 }
 .farMountain {
     width: 0;
@@ -94,7 +95,8 @@ section{
     border-bottom: 26.75vw solid rgb(0,128,55);
     position:absolute;
     top: 15.5vw;
-    left: 45vw;   
+    left: 45vw;  
+    z-index: 2; 
 }
 
 #p1{
@@ -145,15 +147,16 @@ section{
 #p10{
     position:absolute;
     top: 36.25vw;
-    left: 45.5vw;   
+    left: 45.5vw; 
+    z-index: 6;  
 }
 .people {
     color: rgb(108,229,232);
-    font-size: 6vw;
+    font-size: 4em;
 }
 .people2 {
     color: rgb(73,79,86);
-    font-size: 6vw;
+    font-size: 4em;
 }
 form {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
