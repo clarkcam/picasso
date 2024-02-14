@@ -1,0 +1,157 @@
+section{
+    margin:6vw 8vw;
+}
+.canvas{
+    display:flex;
+}
+
+.box{
+    height: 12vw;
+    background-color: rgb(3,152,158);
+    margin:.75vw 1vw;
+    flex:3;
+}
+.box#lower{
+    height: 22vw;
+}
+
+.box#bottom{
+    height: 2vw;
+    background-color: rgb(201,226,101);
+}
+.circle{
+    height: 6vw;
+    width: 6vw;
+    border-radius: 3vw;
+    background-color: rgb(255,222,89);
+}
+
+#bigYellow {
+    position:absolute;
+    top: 9vw;
+    left: 22vw;
+}
+
+#bigRed {
+    background-color: rgb(255,136,136);
+    position:absolute;
+    top: 17vw;
+    left: 33vw;
+}
+#lilYellow {
+    height: 3vw;
+    width: 3vw;
+    border-radius: 1.5vw;
+    position:absolute;
+    top: 23vw;
+    left: 21vw;
+}
+#red1 {
+    background-color: rgb(255,136,136);
+    height: 3vw;
+    width: 3vw;
+    border-radius: 1.5vw;
+    position:absolute;
+    top: 8vw;
+    left: 12vw;
+}
+
+#red2 {
+    background-color: rgb(255,136,136);
+    height: 3vw;
+    width: 3vw;
+    border-radius: 1.5vw;
+    position:absolute;
+    top: 16vw;
+    left: 12.5vw;
+
+}
+#red3 {
+    background-color: rgb(255,136,136);
+    height: 3vw;
+    width: 3vw;
+    border-radius: 1.5vw;
+    position:absolute;
+    top: 10vw;
+    left: 42vw;
+    z-index: index 8;
+}
+.mountain {
+    width: 0;
+    height: 0;
+    border-left: 13vw solid transparent;
+    border-right: 13vw solid transparent;
+    border-bottom: 17.75vw solid rgb(201,226,101);
+    position:absolute;
+    top: 24.75vw;
+    left: 60vw;
+}
+.farMountain {
+    width: 0;
+    height: 0;
+    border-left: 14vw solid transparent;
+    border-right: 14vw solid transparent;
+    border-bottom: 26.75vw solid rgb(0,128,55);
+    position:absolute;
+    top: 15.5vw;
+    left: 45vw;   
+}
+
+#p1{
+    position:absolute;
+    top: 36.25vw;
+    left: 9.5vw 
+}
+#p2{
+    position:absolute;
+    top: 36.25vw;
+    left: 13.5vw;  
+}
+#p3{
+    position:absolute;
+    top: 36.25vw;
+    left: 17.5vw;  
+}
+#p4{
+    position:absolute;
+    top: 36.25vw;
+    left: 21.5vw;   
+}
+#p5{
+    position:absolute;
+    top: 36.25vw;
+    left: 25.5vw;   
+}
+#p6{
+    position:absolute;
+    top: 36.25vw;
+    left: 29.5vw;   
+}
+#p7{
+    position:absolute;
+    top: 36.25vw;
+    left: 33.5vw;   
+}
+#p8{
+    position:absolute;
+    top: 36.25vw;
+    left: 37.5vw;   
+}
+#p9{
+    position:absolute;
+    top: 36.25vw;
+    left: 41.5vw;   
+}
+#p10{
+    position:absolute;
+    top: 36.25vw;
+    left: 45.5vw;   
+}
+.people {
+    color: rgb(108,229,232);
+    font-size: 6vw;
+}
+.people2 {
+    color: rgb(73,79,86);
+    font-size: 6vw;
+}
