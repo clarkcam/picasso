@@ -158,9 +158,25 @@ section{
     color: rgb(73,79,86);
     font-size: 4em;
 }
+@media screen and (max-width:1024px) {
+    .people {
+        font-size: 3.5em;
+        margin: 0 0 0 .5vw
+    }
+    .people2{
+        font-size: 3.5em;
+    }
+}
+@media screen and (max-width:480px) {
+    .people {
+        font-size: 1.75em;
+    }
+    .people2{
+        font-size: 1.75em;
+    }
+}
 form {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 22px;
     margin: 1vw 9vw;
 }
-/* making a change to push */
